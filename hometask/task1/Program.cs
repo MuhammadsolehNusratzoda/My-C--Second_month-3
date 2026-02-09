@@ -1,0 +1,144 @@
+﻿
+
+
+// Task 1
+
+
+// void Count(int n)
+// {
+//     if (n <= 0)
+//     {
+//         return;
+//     }
+
+//     Count(n - 1);
+
+//     Console.Write(n + " " );
+// }
+
+// int n = Convert.ToInt32(Console.ReadLine());
+// Count(n);
+
+
+
+
+
+
+// Task 2
+
+
+// void Count(int n)
+// {
+//     if (n <= 0)
+//     {
+//         return;
+//     }
+//        Console.Write(n + " " );
+//     Count(n - 1);
+// }
+
+// int n = Convert.ToInt32(Console.ReadLine());
+// Count(n);
+
+
+
+
+
+
+// Task 3
+
+// int  sum = 0;
+// void Count(int n)
+// {
+//     sum += n;
+
+//     if (n <= 0)
+//     {
+//         return;
+//     }
+//     Count(n - 1);
+// }
+
+// int n = Convert.ToInt32(Console.ReadLine());
+// Count(n);
+// Console.WriteLine("Sum = " + sum);
+
+
+
+
+
+
+
+// Task 4
+
+
+// void Number(int n)
+// {
+//     if (n <= 0)
+//     {
+//         return;
+//     }
+//     Number(n / 10);
+//     Console.Write(n % 10 + " ");
+// }
+
+// int n = Convert.ToInt32(Console.ReadLine());
+// Number(n);
+
+
+
+
+
+
+
+// Task 5
+
+
+// int  cnt = 0;
+// void Count(int n)
+// {
+//     if (n <= 0)
+//     {
+//         return;
+//     }
+//     Count(n / 10);
+//     cnt ++;
+// }
+
+// int n = Convert.ToInt32(Console.ReadLine());
+// Count(n);
+// Console.WriteLine("Count = " + cnt);
+
+
+
+
+
+
+
+// Task 6
+
+
+// void Count(int a, int b)
+// {
+//     for(int i = a; i <= b; i++)
+//     {
+//         if (i % 2 == 0)
+//         {
+//             Console.Write(i + " ");
+//         }
+//     }
+
+//     Console.WriteLine();
+    
+//     for(int i = a; i <= b; i++)
+//     {
+//         if (i % 2 != 0)
+//         {
+//             Console.Write(i + " ");
+//         }
+//     }
+// }
+
+// int a = Convert.ToInt32(Console.ReadLine());
+// int b = Convert.ToInt32(Console.ReadLine());
+// Count(a , b);
