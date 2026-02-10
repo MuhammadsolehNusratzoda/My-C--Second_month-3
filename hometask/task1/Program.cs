@@ -118,27 +118,39 @@
 // Task 6
 
 
-// void Count(int a, int b)
-// {
-//     for(int i = a; i <= b; i++)
+// void CountEven(int a, int b)
+// { 
+//     if(a > b)
 //     {
-//         if (i % 2 == 0)
-//         {
-//             Console.Write(i + " ");
-//         }
+//       return;
+//     }
+//     if(a % 2 == 0)
+//     {
+//       Console.Write( a + " " );
+//     }
+    
+//     CountEven(a + 1, b);
+// }
+
+// void CountOdd(int a, int b)
+// { 
+//     if(a > b)
+//     {
+//       return;
 //     }
 
-//     Console.WriteLine();
-    
-//     for(int i = a; i <= b; i++)
+//     if(a % 2 != 0)
 //     {
-//         if (i % 2 != 0)
-//         {
-//             Console.Write(i + " ");
-//         }
+//         Console.Write( a + " " );
 //     }
+
+//     CountOdd(a + 1, b);
 // }
 
 // int a = Convert.ToInt32(Console.ReadLine());
+
 // int b = Convert.ToInt32(Console.ReadLine());
-// Count(a , b);
+
+// CountEven(a , b);
+
+// CountOdd(a , b);
